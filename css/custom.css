@@ -1,0 +1,61 @@
+.carousel-caption {
+  top: 10%;
+}
+
+
+
+
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+	.navbar-brand h2{
+				font-size: 17px;margin-top: 15px;
+			}
+
+
+	.carousel-caption h2 span {
+		  font-weight: 200;
+		}
+	.carousel-caption img {
+		  height: 180px;
+		  width: 180px;
+		}
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		.navbar-brand h2{
+				font-size: 20px;margin-top: 15px;
+			}
+
+
+}
